@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasicWebsite</title>
+    <style>
+        header{
+            background-color: rgb(24, 155, 24);
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            padding: 5%;
+            margin: 0% -1%;
+
+        }
+        nav {
+            background-color:rgb(122 208 208);
+            color: white;
+            display: flex;
+            align-items: center;
+            margin: 0% -1%;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        .nav-links li {
+            margin:0px 30px;
+        }
+        .nav-links li a{
+            color: black;
+            text-decoration: none;
+        }
+        .container{
+            max-width: 100%;
+            display: flex;
+        }
+        aside{
+            background-color: rgb(249, 249, 24);
+            width: 15%;
+            margin-left: -1%;
+        }
+        aside li a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+        }
+        article{
+            background-color: grey;
+            width: 100%;
+            margin: 0% -1% ;
+        }
+        footer{
+            background-color: rgb(122 208 208);
+            margin-left: -1%;
+            width: 100%;
+            padding: 10px;
+
+        }
+        img{
+            width: 30px;
+            padding:0% 2%;
+        }
+    </style>
+</head>
+<body>
+    <header><b>Welcome to My Website</b></header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside>
+            <ul>
+                <li><a href = "#">CNN</a></li>
+                <li><a href = "#">BBC</a></li>
+                <li><a href = "#">TOI</a></li>
+            </ul>
+        </aside>
+        <article>
+            <section style="margin-left: 3%;"><h2>Section 1</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </section>
+            <section style="margin-left: 3%;"><h2>Section 2</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </section>
+            <section style="margin-left: 3%;"><h2>Section 3</h2>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                    1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </section>
+        </article>
+    </div>
+    <footer>
+        <img src = "images/twitter.png">
+        <img src = "images/instagram.png">
+        <img src = "images/facebook.png">
+    </footer>
+</body>
+</html>
